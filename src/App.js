@@ -50,7 +50,7 @@ function App() {
     <div className="App">
       {
         user.isSignedIn ? <button className='btn btn-primary' onClick={handleSignout}>Sign out</button> :
-          <button className='btn btn-primary' onClick={handleSignIn}>Sign in</button>
+          <button onClick={handleSignIn}>Sign in</button>
       }
       <div style={{ border: "1px slid red" }} className="container">
         {
